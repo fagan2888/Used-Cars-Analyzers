@@ -12,7 +12,7 @@
 import psycopg2
 
 try:
-    conn = psycopg2.connect("dbname='car_analyzer' user='car_analyzer' host='142.93.190.0' password='georgetown'")
+    conn = psycopg2.connect("dbname='DB_NAME' user='USER_NAME' host='IP_Address' password='PASSWORD'")
 except:
     print ("Unable to connect to the database")
 	
