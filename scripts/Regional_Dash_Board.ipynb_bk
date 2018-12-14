@@ -2,17 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 4,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import pandas as pd\n",
-    "import numpy as np"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 158,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -26,7 +16,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 159,
    "metadata": {
     "scrolled": true
    },
@@ -113,7 +103,7 @@
        "6       Southwest Region  16838.266901"
       ]
      },
-     "execution_count": 6,
+     "execution_count": 159,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -126,7 +116,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 160,
    "metadata": {},
    "outputs": [
     {
@@ -211,7 +201,7 @@
        "6       Southwest Region  16838.266901"
       ]
      },
-     "execution_count": 7,
+     "execution_count": 160,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -223,7 +213,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 161,
    "metadata": {},
    "outputs": [
     {
@@ -239,7 +229,7 @@
        "Name: region_name, dtype: object"
       ]
      },
-     "execution_count": 8,
+     "execution_count": 161,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -250,17 +240,18 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 162,
    "metadata": {},
    "outputs": [],
    "source": [
     "import plotly.offline as pyo\n",
-    "import plotly.graph_objs as go"
+    "import plotly.graph_objs as go\n",
+    "import pandas as pd"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 163,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -271,7 +262,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+   "execution_count": 164,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -280,7 +271,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 165,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -289,7 +280,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 166,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -305,7 +296,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
+   "execution_count": 167,
    "metadata": {},
    "outputs": [
     {
@@ -314,7 +305,7 @@
        "'file://C:\\\\Data_Science\\\\Project_team\\\\Third_Analysis\\\\regions.html'"
       ]
      },
-     "execution_count": 16,
+     "execution_count": 167,
      "metadata": {},
      "output_type": "execute_result"
     }
